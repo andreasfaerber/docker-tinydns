@@ -4,6 +4,11 @@ Docker image running tinydns and axfrdns as name server
 Name server in a docker container running tinydns and axfrdns. Uses
 a git repository to periodically pull and update the DNS data.
 
+### Variables
+
+- GIT_DNSDATA: URL to pull the dns data from (See https://github.com/andreasfaerber/docker-tinydns-exampledata for an example)
+- GIT_UPDATE_FREQUENCY: Delay in seconds between each DNS data update
+
 ### Example usages
 
 Create base axfrdns_tcp file:
