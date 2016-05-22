@@ -6,7 +6,7 @@ a git repository to periodically pull and update the DNS data.
 
 ### Variables
 
-* **GIT_DNSDATA**: URL to pull the dns data from. See [docker-tinydns-exampledata](https://github.com/andreasfaerber/docker-tinydns-exampledata) example data
+* **GIT_DNSDATA**: URL to pull the dns data from. See [example data](https://github.com/andreasfaerber/docker-tinydns-exampledata)
 * **GIT_UPDATE_FREQUENCY**: Delay in seconds between each DNS data update
 
 ### Example usages
