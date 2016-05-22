@@ -16,7 +16,7 @@ cat > axfrdns_tcp <<EOF
 EOF
 ```
 
-Run tinydns docker container with example data:
+#### Run tinydns docker container with example data:
 
 ```
 docker run -d \
@@ -28,7 +28,7 @@ docker run -d \
            afaerber/docker-tinydns
 ```
 
-Run with ssh key authentication for some real world DNS data repository:
+#### Run with ssh key authentication for some real world DNS data repository:
 
 - Create a SSH key pair required to pull your DNS data (named ssh_key and ssh_key.pub here)
 - Allow the repository to be pulled by that SSH key pair (read-only)
