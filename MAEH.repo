@@ -1,0 +1,6 @@
+[MAEH]
+name=MAEH Docker Packages (CentOS) - $basearch
+baseurl=http://mirror.maeh.org/docker-repo/MAEH/centos/$releasever/$basearch
+failovermethod=priority
+enabled=1
+gpgcheck=0
