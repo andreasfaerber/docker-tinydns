@@ -32,6 +32,7 @@ Run with ssh key authentication for some real world DNS data repository:
 
 - Create a SSH key pair required to pull your DNS data (named ssh_key and ssh_key.pub here)
 - Allow the repository to be pulled by that SSH key pair (read-only)
+- Change the example GIT_DNSDATA URL to your DNS data repository
 
 ```
 docker run -d \
