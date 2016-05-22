@@ -46,3 +46,8 @@ docker run -d \
            afaerber/docker-tinydns
 ```
 
+#### Test example install
+
+```
+dig @127.0.0.1 your.example mx
+```
