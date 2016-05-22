@@ -1,5 +1,5 @@
 # docker-tinydns
-Docker image running tinydns and axfrdns as name server
+Docker image running tinydns and axfrdns as name server. Uses [fefe's ipv6 patches](https://www.fefe.de/dns/)
 
 Name server in a docker container running tinydns and axfrdns. Uses
 a git repository to periodically pull and update the DNS data.
