@@ -3,7 +3,8 @@ MAINTAINER <af@maeh.org>
 
 COPY ./MAEH.repo /etc/yum.repos.d/
 
-RUN yum -y install daemontools ucspi-tcp djbdns git && \
+RUN yum -y update && \
+    yum -y install daemontools ucspi-tcp djbdns git && \
     useradd -s /bin/false -c 'TinyDNS User' Gtinydns && \
     useradd -s /bin/false -c 'AxfrDNS User' Gaxfrdns && \
     useradd -s /bin/false -c 'DNS Log User' Gdnslog && \
