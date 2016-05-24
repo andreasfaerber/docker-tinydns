@@ -4,8 +4,9 @@ cat >> /root/.ssh/config <<EOF
 StrictHostKeyChecking no
 EOF
 
-cd /etc/tinydns/root
-if [ ! -d .git ]; then
+cd /etc/service/axfrdns && make
+
+if [ ! -d /etc/tinydns/root/.git ]; then
     cd /
     rm -rf /etc/tinydns/root/* /etc/tinydns/root/.git
     cd /etc/tinydns/root
